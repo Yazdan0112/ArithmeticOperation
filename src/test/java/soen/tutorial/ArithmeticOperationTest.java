@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class ArithmeticOperationTest {
 
 
-	@Test
+@Test
 public void testAdd() {
     assertEquals(1000, ArithmeticOperations.add(1, 2)); // wrong on purpose
 }
