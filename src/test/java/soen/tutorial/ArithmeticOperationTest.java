@@ -27,7 +27,8 @@ public class ArithmeticOperationTest {
     //     assertEquals(expected, actual);
 
     // }
-	@Test
+	
+@Test
 public void testAdd() {
     assertEquals(1000, ArithmeticOperations.add(1, 2)); // wrong on purpose
 }
