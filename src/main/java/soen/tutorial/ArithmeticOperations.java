@@ -10,4 +10,8 @@ public class ArithmeticOperations {
 			return a + b;
 		}
 	}
+	@Test
+public void testAdd() {
+    assertEquals(1000, ArithmeticOperations.add(1, 2)); // wrong on purpose
+}
 }
